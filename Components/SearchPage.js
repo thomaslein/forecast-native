@@ -138,7 +138,7 @@ class SearchPage extends Component {
   _handleResponse(response) {
     this.setState({ isLoading: false , message: '' });
     if (response.formatted_address) {
-      this.setState({ message: response.formatted_address, currently: response.currently, iconURL:'http://localhost/github/forecast-native/Forecast/web/' + response.currently.icon + '.html'});
+      this.setState({ message: response.formatted_address, currently: response.currently, iconURL:'http://localhost/github/forecast-native/web/' + response.currently.icon + '.html'});
       if(!this.state.geo){
         this.props.navigator.push({
           title: 'Hourly forecast',

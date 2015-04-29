@@ -85,7 +85,7 @@ renderRow(rowData, sectionID, rowID) {
           </View>
           <WebView
             style={styles.webView}
-            url={'http://localhost/github/forecast-native/Forecast/web/' + rowData.icon + '.html'}
+            url={'http://localhost/github/forecast-native/web/' + rowData.icon + '.html'}
             automaticallyAdjustContentInsets={false}
             scrollEnabled={false}
             bounces={false}
