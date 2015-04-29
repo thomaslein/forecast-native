@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Icon1</title>
+    <style>
+      body{
+        background-color: #055183;
+        margin: 0;
+        padding: 0;
+      }
+    </style>
+    <script src="js/skycons.min.js"></script>
+  </head>
+  <body>
+    <canvas id="icon" width="80" height="80"></canvas>
+    <script>
+      var skycons = new Skycons({"color": "white"});
+      skycons.add("icon", Skycons.RAIN);
+      skycons.play();
+    </script>
+  </body>
+  </html>
