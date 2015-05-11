@@ -23,13 +23,6 @@
 		2B0CA2A21AEE497C00519801 /* images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2B0CA2A11AEE497C00519801 /* images.xcassets */; };
 		2B43636A1AF8AA9C009F7FAB /* Roboto-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2B4363681AF8AA9C009F7FAB /* Roboto-Bold.ttf */; };
 		2B43636B1AF8AA9C009F7FAB /* Roboto-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2B4363691AF8AA9C009F7FAB /* Roboto-Regular.ttf */; };
-		2B43638D1AF8ACB4009F7FAB /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B4363861AF8ACB4009F7FAB /* Default-568h@2x.png */; };
-		2B43638E1AF8ACB4009F7FAB /* Default-Landscape.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B4363871AF8ACB4009F7FAB /* Default-Landscape.png */; };
-		2B43638F1AF8ACB4009F7FAB /* Default-Landscape@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B4363881AF8ACB4009F7FAB /* Default-Landscape@2x.png */; };
-		2B4363901AF8ACB4009F7FAB /* Default-Portrait.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B4363891AF8ACB4009F7FAB /* Default-Portrait.png */; };
-		2B4363911AF8ACB4009F7FAB /* Default-Portrait@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B43638A1AF8ACB4009F7FAB /* Default-Portrait@2x.png */; };
-		2B4363921AF8ACB4009F7FAB /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B43638B1AF8ACB4009F7FAB /* Default.png */; };
-		2B4363931AF8ACB4009F7FAB /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B43638C1AF8ACB4009F7FAB /* Default@2x.png */; };
 		832341BD1AAA6AB300B99B32 /* libRCTText.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 832341B51AAA6A8300B99B32 /* libRCTText.a */; };
 /* End PBXBuildFile section */
 
@@ -134,13 +127,6 @@
 		2B0CA2A11AEE497C00519801 /* images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = images.xcassets; sourceTree = "<group>"; };
 		2B4363681AF8AA9C009F7FAB /* Roboto-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Roboto-Bold.ttf"; path = "Resources/Fonts/Roboto-Bold.ttf"; sourceTree = "<group>"; };
 		2B4363691AF8AA9C009F7FAB /* Roboto-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Roboto-Regular.ttf"; path = "Resources/Fonts/Roboto-Regular.ttf"; sourceTree = "<group>"; };
-		2B4363861AF8ACB4009F7FAB /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-568h@2x.png"; path = "Resources/LaunchImages/Default-568h@2x.png"; sourceTree = "<group>"; };
-		2B4363871AF8ACB4009F7FAB /* Default-Landscape.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-Landscape.png"; path = "Resources/LaunchImages/Default-Landscape.png"; sourceTree = "<group>"; };
-		2B4363881AF8ACB4009F7FAB /* Default-Landscape@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-Landscape@2x.png"; path = "Resources/LaunchImages/Default-Landscape@2x.png"; sourceTree = "<group>"; };
-		2B4363891AF8ACB4009F7FAB /* Default-Portrait.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-Portrait.png"; path = "Resources/LaunchImages/Default-Portrait.png"; sourceTree = "<group>"; };
-		2B43638A1AF8ACB4009F7FAB /* Default-Portrait@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-Portrait@2x.png"; path = "Resources/LaunchImages/Default-Portrait@2x.png"; sourceTree = "<group>"; };
-		2B43638B1AF8ACB4009F7FAB /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Default.png; path = Resources/LaunchImages/Default.png; sourceTree = "<group>"; };
-		2B43638C1AF8ACB4009F7FAB /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default@2x.png"; path = "Resources/LaunchImages/Default@2x.png"; sourceTree = "<group>"; };
 		78C398B01ACF4ADC00677621 /* RCTLinking.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTLinking.xcodeproj; path = "node_modules/react-native/Libraries/LinkingIOS/RCTLinking.xcodeproj"; sourceTree = "<group>"; };
 		832341B01AAA6A8300B99B32 /* RCTText.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTText.xcodeproj; path = "node_modules/react-native/Libraries/Text/RCTText.xcodeproj"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -277,24 +263,9 @@
 			name = Fonts;
 			sourceTree = "<group>";
 		};
-		2B4363851AF8AAD1009F7FAB /* LaunchImages */ = {
-			isa = PBXGroup;
-			children = (
-				2B4363861AF8ACB4009F7FAB /* Default-568h@2x.png */,
-				2B4363871AF8ACB4009F7FAB /* Default-Landscape.png */,
-				2B4363881AF8ACB4009F7FAB /* Default-Landscape@2x.png */,
-				2B4363891AF8ACB4009F7FAB /* Default-Portrait.png */,
-				2B43638A1AF8ACB4009F7FAB /* Default-Portrait@2x.png */,
-				2B43638B1AF8ACB4009F7FAB /* Default.png */,
-				2B43638C1AF8ACB4009F7FAB /* Default@2x.png */,
-			);
-			name = LaunchImages;
-			sourceTree = "<group>";
-		};
 		2B63FBF11AEE356A008DE877 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				2B4363851AF8AAD1009F7FAB /* LaunchImages */,
 				2B4363761AF8AAA6009F7FAB /* Fonts */,
 			);
 			name = Resources;
@@ -558,15 +529,8 @@
 			files = (
 				008F07F31AC5B25A0029DE68 /* main.jsbundle in Resources */,
 				2B0CA2A21AEE497C00519801 /* images.xcassets in Resources */,
-				2B43638F1AF8ACB4009F7FAB /* Default-Landscape@2x.png in Resources */,
-				2B4363911AF8ACB4009F7FAB /* Default-Portrait@2x.png in Resources */,
 				2B43636B1AF8AA9C009F7FAB /* Roboto-Regular.ttf in Resources */,
-				2B4363931AF8ACB4009F7FAB /* Default@2x.png in Resources */,
-				2B43638D1AF8ACB4009F7FAB /* Default-568h@2x.png in Resources */,
 				2B43636A1AF8AA9C009F7FAB /* Roboto-Bold.ttf in Resources */,
-				2B4363901AF8ACB4009F7FAB /* Default-Portrait.png in Resources */,
-				2B43638E1AF8ACB4009F7FAB /* Default-Landscape.png in Resources */,
-				2B4363921AF8ACB4009F7FAB /* Default.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

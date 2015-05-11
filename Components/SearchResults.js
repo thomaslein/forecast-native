@@ -47,7 +47,6 @@ var styles = StyleSheet.create({
 
 
 class SearchResults extends Component {
- 
   constructor(props) {
     super(props);
     var dataSource = new ListView.DataSource(
@@ -85,7 +84,7 @@ renderRow(rowData, sectionID, rowID) {
           </View>
           <WebView
             style={styles.webView}
-            url={'http://localhost/github/forecast-native/web/' + rowData.icon + '.html'}
+            url={'http://thomasl.apt-domain.as/github/forecast-native/web/' + rowData.icon + '.html'}
             automaticallyAdjustContentInsets={false}
             scrollEnabled={false}
             bounces={false}

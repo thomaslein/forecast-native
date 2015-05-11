@@ -121,7 +121,7 @@ class SearchPage extends Component {
   }
   _executeQuery(query) {
     this.setState({ isLoading: true, message: '' });
-    fetch('http://localhost:8082/weather', {
+    fetch('http://thomasl.apt-domain.as:8082/weather', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json'
@@ -138,7 +138,7 @@ class SearchPage extends Component {
   _handleResponse(response) {
     this.setState({ isLoading: false , message: '' });
     if (response.formatted_address) {
-      this.setState({ message: response.formatted_address, currently: response.currently, iconURL:'http://localhost/github/forecast-native/web/' + response.currently.icon + '.html'});
+      this.setState({ message: response.formatted_address, currently: response.currently, iconURL:'http://thomasl.apt-domain.as/github/forecast-native/web/' + response.currently.icon + '.html'});
       if(!this.state.geo){
         this.props.navigator.push({
           title: 'Hourly forecast',
@@ -167,7 +167,7 @@ class SearchPage extends Component {
             style={styles.searchInput}
             value={this.state.searchString}
             onChange={this.onSearchTextChanged.bind(this)}
-            placeholder='Blir det sol?'/>
+            placeholder='Blir det sol?????'/>
           <TouchableHighlight onPress={this.onSearchPressed.bind(this)} style={styles.button}
               underlayColor='rgba(255,255,255, 0.2)'>
             <Text style={styles.buttonText}>Søk</Text>
